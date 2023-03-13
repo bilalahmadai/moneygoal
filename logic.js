@@ -1,5 +1,3 @@
-
-// let inn = document.getElementById("in").value;
 var year = 10000;
 function calculate() {
   var dollar = document.getElementById("dollar").value;
@@ -70,4 +68,8 @@ function inputBox() {
     x.style.display = "block";
     r.style.display = "none";
   }
+}
+function myTheme() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
